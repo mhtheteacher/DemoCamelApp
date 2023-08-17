@@ -10,7 +10,6 @@
         </encoder>
     </appender>
 
-    <!-- Set the root logger to a higher level like WARN or ERROR -->
     <root level="INFO">
         <appender-ref ref="FILE"/>
     </root>
