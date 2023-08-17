@@ -1,0 +1,25 @@
+2023-08-15 16:32:12.616 [restartedMain] INFO  com.camel.demo.DemoApplication - Starting DemoApplication using Java 17.0.5 with PID 16360 (C:\Users\mariam.hyder\Desktop\Java Development\DemoCamelApp\target\classes started by mariam.hyder in C:\Users\mariam.hyder\Desktop\Java Development\DemoCamelApp)
+2023-08-15 16:32:12.619 [restartedMain] INFO  com.camel.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-15 16:32:12.667 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-15 16:32:12.669 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-15 16:32:14.796 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-15 16:32:14.805 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-15 16:32:14.805 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-15 16:32:14.940 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-15 16:32:14.942 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2272 ms
+2023-08-15 16:32:15.463 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-15 16:32:15.515 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 16:32:15.746 [restartedMain] INFO  o.a.c.component.file.FileEndpoint - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2023-08-15 16:32:15.755 [restartedMain] INFO  o.a.c.component.file.FileEndpoint - Using default memory based idempotent repository with cache max size: 1000
+2023-08-15 16:32:15.756 [restartedMain] INFO  o.a.c.component.file.FileEndpoint - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2023-08-15 16:32:15.764 [restartedMain] INFO  o.a.c.component.file.FileEndpoint - Using default memory based idempotent repository with cache max size: 1000
+2023-08-15 16:32:15.777 [restartedMain] INFO  o.a.c.i.engine.AbstractCamelContext - Apache Camel 4.0.0-RC2 (camel-1) is starting
+2023-08-15 16:32:15.783 [restartedMain] INFO  o.a.c.s.b.CamelSpringBootApplicationListener - Starting CamelMainRunController to ensure the main thread keeps running
+2023-08-15 16:32:15.785 [CamelMainRunController] INFO  org.apache.camel.main.MainSupport - Apache Camel (Main) 4.0.0-RC2 is starting
+2023-08-15 16:32:15.794 [restartedMain] INFO  o.a.c.i.engine.AbstractCamelContext - Routes startup (started:2)
+2023-08-15 16:32:15.794 [restartedMain] INFO  o.a.c.i.engine.AbstractCamelContext -     Started route1 (file://source2)
+2023-08-15 16:32:15.795 [restartedMain] INFO  o.a.c.i.engine.AbstractCamelContext -     Started route2 (file://source)
+2023-08-15 16:32:15.795 [restartedMain] INFO  o.a.c.i.engine.AbstractCamelContext - Apache Camel 4.0.0-RC2 (camel-1) started in 16ms (build:0ms init:0ms start:16ms)
+2023-08-15 16:32:15.799 [restartedMain] INFO  com.camel.demo.DemoApplication - Started DemoApplication in 3.708 seconds (process running for 4.215)
+2023-08-15 16:32:16.829 [Camel (camel-1) thread #1 - file://source2] INFO  myCustomisedLog - moveAllFilesFromOneLocToOther Method Invoked
+2023-08-15 16:32:16.843 [Camel (camel-1) thread #2 - file://source] INFO  myCustomisedLog - multiFileProcessor Method Invoked
